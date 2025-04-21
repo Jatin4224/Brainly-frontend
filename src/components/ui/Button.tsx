@@ -10,7 +10,7 @@ interface Buttonprops {
 }
 const variantStyles = {
   primary: "bg-gray-600 text-white",
-  secondary: "bg-gray-400 text-gray-600",
+  secondary: "bg-gray-200 text-gray-600",
 };
 
 const sizeStyles = {

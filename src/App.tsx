@@ -1,5 +1,6 @@
 import { Button } from "./components/ui/Button";
 import { Card } from "./components/ui/Card";
+import { CreateContentModal } from "./components/ui/CreateContentModal";
 import { PlusIcon } from "./icons/PlusIcon";
 
 import { ShareIcon } from "./icons/ShareIcon";
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <main className="p-4">
+        <CreateContentModal open={true} />
         <section className="flex justify-end gap-4">
           <div className="gap-2 flex mt-2">
             <Button
