@@ -1,17 +1,23 @@
 import { Button } from "./components/ui/Button";
 import { PlusIcon } from "./icons/plusIcon";
+import { ShareIcon } from "./icons/ShareIcon";
 
 function App() {
   return (
     <>
       <div className="gap-2 flex mt-2">
         <Button
-          startIcon={<PlusIcon />}
+          startIcon={<PlusIcon size={"lg"} />}
           variant="primary"
-          text={"share"}
+          text={"Add Content"}
           size="lg"
         />
-        <Button variant="secondary" text={"Add Content"} size="md" />
+        <Button
+          startIcon={<ShareIcon size={"lg"} />}
+          variant="secondary"
+          text={"Share"}
+          size="lg"
+        />
       </div>
     </>
   );
